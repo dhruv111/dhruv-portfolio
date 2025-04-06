@@ -1,12 +1,14 @@
 import React from 'react';
 import './App.css';
+import gardenIcon from './assets/gardenIcon.jpg'; // Replace with correct image
+import luckySlotsIcon from './assets/luckyslotsIcon.webp'; // Replace with correct image
 
 function App() {
   return (
     <>
       <header id="home">
         <h1>Hi, I'm Dhruv Mevada</h1>
-        <p>Unity Game Developer | Tool Builder | Designer</p>
+        <p>Software Engineer | Unity Developer | Tool Builder | Designer</p>
       </header>
 
       <nav>
@@ -18,22 +20,31 @@ function App() {
 
       <section id="projects">
         <h2>Projects</h2>
+
         <div className="project">
-          <img src="https://via.placeholder.com/80?text=🎮" alt="Game 1"/>
+          <img src={gardenIcon} alt="Gardens of Time" />
           <div className="project-details">
-            <h3>Game Title 1</h3>
-            <p>Exciting Unity platformer game developed for mobile and WebGL.</p>
-            <a href="https://example.com/game1" target="_blank" rel="noreferrer">View Project</a>
+            <h3>Gardens of Time</h3>
+            <p>
+              Gardens of Time is an exciting, award-winning hidden object game! Use your Time Machine to locate hidden objects throughout history, unravel the intrigues of a secret society, and protect the world from sinister forces!
+            </p>
+            <a href="https://www.facebook.com/GardensofTime/" target="_blank" rel="noreferrer">View on Facebook</a>
           </div>
         </div>
+
         <div className="project">
-          <img src="https://via.placeholder.com/80?text=🛠️" alt="Tool 1"/>
+          <img src={luckySlotsIcon} alt="Lucky Slots" />
           <div className="project-details">
-            <h3>Tool Title 1</h3>
-            <p>Custom Unity editor extension for level design workflow improvement.</p>
-            <a href="https://example.com/tool1" target="_blank" rel="noreferrer">View Tool</a>
+            <h3>Lucky Slots</h3>
+            <p>
+              Thrill of striking it rich in over 60 authentic FREE to play slot machines with all the Vegas casino features you love. Make your fortune with HUGE Payouts, Bonus Games, Free Spins and more!
+            </p>
+            <a href="https://play.google.com/store/apps/details?id=com.blueshellgames.luckyslots&hl=en_IN&pli=1" target="_blank" rel="noreferrer">Google Play</a><br/>
+            <a href="https://www.facebook.com/playluckyslots/" target="_blank" rel="noreferrer">Facebook</a><br/>
+            <a href="https://apps.apple.com/us/app/lucky-slots-vegas-casino/id451658773" target="_blank" rel="noreferrer">iOS App Store</a>
           </div>
         </div>
+
       </section>
 
       <section id="about" className="about">
@@ -45,7 +56,7 @@ function App() {
       <section id="contact" className="contact">
         <h2>Contact</h2>
         <p>Email: <a href="mailto:dhruvmevada.dev@gmail.com">dhruvmevada.dev@gmail.com</a></p>
-        <p>Phone: <a href="tel:+918200486575">+91-8200486575</a></p>
+        <p>Phone: <a href="tel:+917383865487">+91 7383865487</a></p>
         <p>GitHub: <a href="https://github.com/Dhruvmevada" target="_blank" rel="noreferrer">github.com/Dhruvmevada</a></p>
         <p>LinkedIn: <a href="https://linkedin.com/in/dhruvmevada" target="_blank" rel="noreferrer">linkedin.com/in/dhruvmevada</a></p>
       </section>
