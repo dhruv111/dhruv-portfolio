@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
-import gardenIcon from './assets/gardenIcon.jpg'; // Replace with correct image
-import luckySlotsIcon from './assets/luckyslotsIcon.webp'; // Replace with correct image
+import luckyslots from './assets/luckyslots.webp';     // Your Lucky Slots image
+import gardens_of_time from './assets/gardensoftime.jpg'; // Your Gardens of Time image
 
 function App() {
   return (
@@ -22,7 +22,7 @@ function App() {
         <h2>Projects</h2>
 
         <div className="project">
-          <img src={gardenIcon} alt="Gardens of Time" />
+          <img src={gardens_of_time} alt="Gardens of Time" />
           <div className="project-details">
             <h3>Gardens of Time</h3>
             <p>
@@ -33,27 +33,26 @@ function App() {
         </div>
 
         <div className="project">
-          <img src={luckySlotsIcon} alt="Lucky Slots" />
+          <img src={luckyslots} alt="Lucky Slots" />
           <div className="project-details">
             <h3>Lucky Slots</h3>
             <p>
               Thrill of striking it rich in over 60 authentic FREE to play slot machines with all the Vegas casino features you love. Make your fortune with HUGE Payouts, Bonus Games, Free Spins and more!
             </p>
-            <a href="https://play.google.com/store/apps/details?id=com.blueshellgames.luckyslots&hl=en_IN&pli=1" target="_blank" rel="noreferrer">Google Play</a><br/>
-            <a href="https://www.facebook.com/playluckyslots/" target="_blank" rel="noreferrer">Facebook</a><br/>
+            <a href="https://play.google.com/store/apps/details?id=com.blueshellgames.luckyslots&hl=en_IN&pli=1" target="_blank" rel="noreferrer">Google Play</a><br />
+            <a href="https://www.facebook.com/playluckyslots/" target="_blank" rel="noreferrer">Facebook</a><br />
             <a href="https://apps.apple.com/us/app/lucky-slots-vegas-casino/id451658773" target="_blank" rel="noreferrer">iOS App Store</a>
           </div>
         </div>
-
       </section>
 
-      <section id="about" className="about">
+      <section id="about">
         <h2>About Me</h2>
         <p>I'm a Unity Developer with over 5 years of experience working on diverse game projects across mobile and WebGL platforms.</p>
         <p>Fluent in Git, Jenkins, Bitrise, Jira, and Confluence. Based in Ahmedabad, open to relocating to Bengaluru.</p>
       </section>
 
-      <section id="contact" className="contact">
+      <section id="contact">
         <h2>Contact</h2>
         <p>Email: <a href="mailto:dhruvmevada.dev@gmail.com">dhruvmevada.dev@gmail.com</a></p>
         <p>Phone: <a href="tel:+917383865487">+91 7383865487</a></p>
