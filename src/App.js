@@ -40,6 +40,31 @@ function App() {
             <a href="https://apps.apple.com/us/app/lucky-slots-vegas-casino/id451658773" target="_blank" rel="noreferrer">iOS App Store</a>
           </div>
         </div>
+        
+       
+        <div className="project">
+          <img src={aqclash} alt="AquaBall Clash 2" />
+          <div className="project-details">
+            <h3>AquaBall Clash 2</h3>
+            <p>
+              I solely developed AquaBall Clash 2 from scratch, including gameplay programming, UI design, and publishing.
+            </p>
+            <a href="https://play.google.com/store/apps/details?id=com.CreativeMindset.AquaballClash2" target="_blank" rel="noreferrer">View on Google Play</a>
+          </div>
+        </div>
+
+        
+        <div className="project">
+          <img src={solitairearena} alt="Solitaire Arena" />
+          <div className="project-details">
+            <h3>Solitaire Arena</h3>
+            <p>
+              I worked on migrating Solitaire Arena for Android, handling the pure native Android codebase.
+            </p>
+            <a href="https://play.google.com/store/apps/details?id=com.mavenhut.solitaire" target="_blank" rel="noreferrer">View on Google Play</a>
+          </div>
+        </div>
+    
       </section>
 
       <section id="about" className="fade-in-section">
