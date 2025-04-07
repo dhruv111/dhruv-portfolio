@@ -44,9 +44,9 @@ function App() {
             <h3>Lucky Slots</h3>
             <p>I contributed to porting Lucky Slots from a Flash game to Unity. I was actively involved in the Android launch and later helped port the game to iOS.</p>
             <div className="link-buttons">
-              <a href="https://play.google.com/store/apps/details?id=com.blueshellgames.luckyslots" target="_blank" rel="noreferrer">Google Play</a>
-              <a href="https://www.facebook.com/playluckyslots/" target="_blank" rel="noreferrer">Facebook</a>
-              <a href="https://apps.apple.com/us/app/lucky-slots-vegas-casino/id451658773" target="_blank" rel="noreferrer">iOS App Store</a>
+              <a href="https://play.google.com/store/apps/details?id=com.blueshellgames.luckyslots" target="_blank" rel="noreferrer">View on Google Play</a>
+              <a href="https://www.facebook.com/playluckyslots/" target="_blank" rel="noreferrer">View on Facebook</a>
+              <a href="https://apps.apple.com/us/app/lucky-slots-vegas-casino/id451658773" target="_blank" rel="noreferrer">View on iOS App Store</a>
             </div>
           </div>
         </div>
@@ -82,7 +82,7 @@ function App() {
             <h3>Inspirit Simulation</h3>
             <p>Worked on dedicated projects with other highly skilled developers across the globe. Learned more in-depth about highly scalable projects and collaborative work. Maintained the flow of the well-defined structure and architecture of Inspirit to fulfill the client's needs.</p>
             <div className="link-buttons">
-              <a href="https://inspiritvr.com/" target="_blank" rel="noreferrer">View on Inspirit</a>
+              <a href="https://inspiritvr.com/" target="_blank" rel="noreferrer">View on Inspirit Website</a>
             </div>
           </div>
         </div>
