@@ -34,11 +34,14 @@ function App() {
         </div>
 
         {/* Lucky Slots */}
-        <div className="project">
+     
+<div className="project">
   <img src={luckyslots} alt="Lucky Slots" />
   <div className="project-details">
     <h3>Lucky Slots</h3>
-    <p>I contributed to porting Lucky Slots from a Flash game to Unity. I was actively involved in the Android launch and later helped port the game to iOS.</p>
+    <p>
+      I contributed to porting Lucky Slots from a Flash game to Unity. I was actively involved in the Android launch and later helped port the game to iOS.
+    </p>
     <div className="link-buttons">
       <a href="https://play.google.com/store/apps/details?id=com.blueshellgames.luckyslots" target="_blank" rel="noreferrer">Google Play</a>
       <a href="https://www.facebook.com/playluckyslots/" target="_blank" rel="noreferrer">Facebook</a>
@@ -46,6 +49,7 @@ function App() {
     </div>
   </div>
 </div>
+
 
         {/* AquaBall Clash 2 */}
         <div className="project">
