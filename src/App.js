@@ -2,8 +2,8 @@ import React from 'react';
 import './App.css';
 import luckyslots from './assets/luckyslots.webp';
 import gardens_of_time from './assets/gardensoftime.jpg';
-import luckyslots from './assets/SA.webp';
-import gardens_of_time from './assets/AqClash.webp';
+import aqclash from './assets/AqClash.webp';  // Fixed name
+import solitairearena from './assets/SA.webp';  // Fixed name
 
 function App() {
   return (
@@ -23,6 +23,7 @@ function App() {
       <section id="projects" className="fade-in-section">
         <h2>Projects</h2>
 
+        {/* Gardens of Time */}
         <div className="project">
           <img src={gardens_of_time} alt="Gardens of Time" />
           <div className="project-details">
@@ -32,6 +33,7 @@ function App() {
           </div>
         </div>
 
+        {/* Lucky Slots */}
         <div className="project">
           <img src={luckyslots} alt="Lucky Slots" />
           <div className="project-details">
@@ -42,8 +44,8 @@ function App() {
             <a href="https://apps.apple.com/us/app/lucky-slots-vegas-casino/id451658773" target="_blank" rel="noreferrer">iOS App Store</a>
           </div>
         </div>
-        
-       
+
+        {/* AquaBall Clash 2 */}
         <div className="project">
           <img src={aqclash} alt="AquaBall Clash 2" />
           <div className="project-details">
@@ -55,7 +57,7 @@ function App() {
           </div>
         </div>
 
-        
+        {/* Solitaire Arena */}
         <div className="project">
           <img src={solitairearena} alt="Solitaire Arena" />
           <div className="project-details">
@@ -66,7 +68,7 @@ function App() {
             <a href="https://play.google.com/store/apps/details?id=com.mavenhut.solitaire" target="_blank" rel="noreferrer">View on Google Play</a>
           </div>
         </div>
-    
+
       </section>
 
       <section id="about" className="fade-in-section">
