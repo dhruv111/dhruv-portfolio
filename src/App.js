@@ -2,6 +2,8 @@ import React from 'react';
 import './App.css';
 import luckyslots from './assets/luckyslots.webp';
 import gardens_of_time from './assets/gardensoftime.jpg';
+import luckyslots from './assets/SA.webp';
+import gardens_of_time from './assets/AqClash.webp';
 
 function App() {
   return (
