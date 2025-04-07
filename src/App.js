@@ -31,7 +31,9 @@ function App() {
           <div className="project-details">
             <h3>Gardens of Time</h3>
             <p>I was part of the Gardens of Time team, released new content, solved live bugs, participated in the endpoint migration from Playdom (Poreach Inc) to Garden City Games, and helped in releasing features to retain players.</p>
-            <a href="https://www.facebook.com/GardensofTime/" target="_blank" rel="noreferrer">View on Facebook</a>
+            <div className="link-buttons">
+              <a href="https://www.facebook.com/GardensofTime/" target="_blank" rel="noreferrer">View on Facebook</a>
+            </div>
           </div>
         </div>
 
@@ -55,7 +57,9 @@ function App() {
           <div className="project-details">
             <h3>AquaBall Clash 2</h3>
             <p>I solely developed AquaBall Clash 2 from scratch, including gameplay programming, UI design, and publishing.</p>
-            <a href="https://play.google.com/store/apps/details?id=com.CreativeMindset.AquaballClash2" target="_blank" rel="noreferrer">View on Google Play</a>
+            <div className="link-buttons">
+              <a href="https://play.google.com/store/apps/details?id=com.CreativeMindset.AquaballClash2" target="_blank" rel="noreferrer">View on Google Play</a>
+            </div>
           </div>
         </div>
 
@@ -65,7 +69,9 @@ function App() {
           <div className="project-details">
             <h3>Solitaire Arena</h3>
             <p>I worked on migrating Solitaire Arena for Android, handling the pure native Android codebase.</p>
-            <a href="https://play.google.com/store/apps/details?id=com.mavenhut.solitaire" target="_blank" rel="noreferrer">View on Google Play</a>
+            <div className="link-buttons">
+              <a href="https://play.google.com/store/apps/details?id=com.mavenhut.solitaire" target="_blank" rel="noreferrer">View on Google Play</a>
+            </div>
           </div>
         </div>
 
@@ -75,7 +81,9 @@ function App() {
           <div className="project-details">
             <h3>Inspirit Simulation</h3>
             <p>Worked on dedicated projects with other highly skilled developers across the globe. Learned more in-depth about highly scalable projects and collaborative work. Maintained the flow of the well-defined structure and architecture of Inspirit to fulfill the client's needs.</p>
-            <a href="https://inspiritvr.com/" target="_blank" rel="noreferrer">View on Inspirit</a>
+            <div className="link-buttons">
+              <a href="https://inspiritvr.com/" target="_blank" rel="noreferrer">View on Inspirit</a>
+            </div>
           </div>
         </div>
 
@@ -85,7 +93,9 @@ function App() {
           <div className="project-details">
             <h3>Flash.it</h3>
             <p>Made features of screen point inline view, calculation of radians, and reflection of the new plan after changing radians manually. Able to take a screenshot of the current plan.</p>
-            <a href="https://play.google.com/store/apps/details?id=com.structuredsteel.flashit.app&hl=en_IN" target="_blank" rel="noreferrer">View on Google Play</a>
+            <div className="link-buttons">
+              <a href="https://play.google.com/store/apps/details?id=com.structuredsteel.flashit.app&hl=en_IN" target="_blank" rel="noreferrer">View on Google Play</a>
+            </div>
           </div>
         </div>
       </section>
