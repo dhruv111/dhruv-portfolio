@@ -2,8 +2,8 @@ import React from 'react';
 import './App.css';
 import luckyslots from './assets/luckyslots.webp';
 import gardens_of_time from './assets/gardensoftime.jpg';
-import aqclash from './assets/AqClash.webp';  // Fixed name
-import solitairearena from './assets/SA.webp';  // Fixed name
+import aqclash from './assets/AqClash.webp';
+import solitairearena from './assets/SA.webp';
 
 function App() {
   return (
@@ -28,37 +28,31 @@ function App() {
           <img src={gardens_of_time} alt="Gardens of Time" />
           <div className="project-details">
             <h3>Gardens of Time</h3>
-            <p>I was part of the Gardens of Time team, released new content, solved live bugs, participated in the endpoint migration from Playdom (Poreach Inc) to Garden City Games, and helped in releasing features to retain players.</p>
+            <p>Gardens of Time is an exciting, award-winning hidden object game! Use your Time Machine to locate hidden objects throughout history, unravel the intrigues of a secret society, and protect the world from sinister forces!</p>
             <a href="https://www.facebook.com/GardensofTime/" target="_blank" rel="noreferrer">View on Facebook</a>
           </div>
         </div>
 
         {/* Lucky Slots */}
-     
-<div className="project">
-  <img src={luckyslots} alt="Lucky Slots" />
-  <div className="project-details">
-    <h3>Lucky Slots</h3>
-    <p>
-      I contributed to porting Lucky Slots from a Flash game to Unity. I was actively involved in the Android launch and later helped port the game to iOS.
-    </p>
-    <div className="link-buttons">
-      <a href="https://play.google.com/store/apps/details?id=com.blueshellgames.luckyslots" target="_blank" rel="noreferrer">Google Play</a>
-      <a href="https://www.facebook.com/playluckyslots/" target="_blank" rel="noreferrer">Facebook</a>
-      <a href="https://apps.apple.com/us/app/lucky-slots-vegas-casino/id451658773" target="_blank" rel="noreferrer">iOS App Store</a>
-    </div>
-  </div>
-</div>
-
+        <div className="project">
+          <img src={luckyslots} alt="Lucky Slots" />
+          <div className="project-details">
+            <h3>Lucky Slots</h3>
+            <p>Thrill of striking it rich in over 60 authentic FREE to play slot machines with all the Vegas casino features you love. Make your fortune with HUGE Payouts, Bonus Games, Free Spins and more!</p>
+            <div className="link-buttons">
+              <a href="https://play.google.com/store/apps/details?id=com.blueshellgames.luckyslots" target="_blank" rel="noreferrer">Google Play</a>
+              <a href="https://www.facebook.com/playluckyslots/" target="_blank" rel="noreferrer">Facebook</a>
+              <a href="https://apps.apple.com/us/app/lucky-slots-vegas-casino/id451658773" target="_blank" rel="noreferrer">iOS App Store</a>
+            </div>
+          </div>
+        </div>
 
         {/* AquaBall Clash 2 */}
         <div className="project">
           <img src={aqclash} alt="AquaBall Clash 2" />
           <div className="project-details">
             <h3>AquaBall Clash 2</h3>
-            <p>
-              I solely developed AquaBall Clash 2 from scratch, including gameplay programming, UI design, and publishing.
-            </p>
+            <p>I solely developed AquaBall Clash 2 from scratch, including gameplay programming, UI design, and publishing.</p>
             <a href="https://play.google.com/store/apps/details?id=com.CreativeMindset.AquaballClash2" target="_blank" rel="noreferrer">View on Google Play</a>
           </div>
         </div>
@@ -68,13 +62,10 @@ function App() {
           <img src={solitairearena} alt="Solitaire Arena" />
           <div className="project-details">
             <h3>Solitaire Arena</h3>
-            <p>
-              I worked on migrating Solitaire Arena for Android, handling the pure native Android codebase.
-            </p>
+            <p>I worked on migrating Solitaire Arena for Android, handling the pure native Android codebase.</p>
             <a href="https://play.google.com/store/apps/details?id=com.mavenhut.solitaire" target="_blank" rel="noreferrer">View on Google Play</a>
           </div>
         </div>
-
       </section>
 
       <section id="about" className="fade-in-section">
