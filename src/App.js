@@ -28,22 +28,24 @@ function App() {
           <img src={gardens_of_time} alt="Gardens of Time" />
           <div className="project-details">
             <h3>Gardens of Time</h3>
-            <p>Gardens of Time is an exciting, award-winning hidden object game! Use your Time Machine to locate hidden objects throughout history, unravel the intrigues of a secret society, and protect the world from sinister forces!</p>
+            <p>I was part of the Gardens of Time team, released new content, solved live bugs, participated in the endpoint migration from Playdom (Poreach Inc) to Garden City Games, and helped in releasing features to retain players.</p>
             <a href="https://www.facebook.com/GardensofTime/" target="_blank" rel="noreferrer">View on Facebook</a>
           </div>
         </div>
 
         {/* Lucky Slots */}
         <div className="project">
-          <img src={luckyslots} alt="Lucky Slots" />
-          <div className="project-details">
-            <h3>Lucky Slots</h3>
-            <p>Thrill of striking it rich in over 60 authentic FREE to play slot machines with all the Vegas casino features you love. Make your fortune with HUGE Payouts, Bonus Games, Free Spins and more!</p>
-            <a href="https://play.google.com/store/apps/details?id=com.blueshellgames.luckyslots" target="_blank" rel="noreferrer">Google Play</a><br/>
-            <a href="https://www.facebook.com/playluckyslots/" target="_blank" rel="noreferrer">Facebook</a><br/>
-            <a href="https://apps.apple.com/us/app/lucky-slots-vegas-casino/id451658773" target="_blank" rel="noreferrer">iOS App Store</a>
-          </div>
-        </div>
+  <img src={luckyslots} alt="Lucky Slots" />
+  <div className="project-details">
+    <h3>Lucky Slots</h3>
+    <p>I contributed to porting Lucky Slots from a Flash game to Unity. I was actively involved in the Android launch and later helped port the game to iOS.</p>
+    <div className="link-buttons">
+      <a href="https://play.google.com/store/apps/details?id=com.blueshellgames.luckyslots" target="_blank" rel="noreferrer">Google Play</a>
+      <a href="https://www.facebook.com/playluckyslots/" target="_blank" rel="noreferrer">Facebook</a>
+      <a href="https://apps.apple.com/us/app/lucky-slots-vegas-casino/id451658773" target="_blank" rel="noreferrer">iOS App Store</a>
+    </div>
+  </div>
+</div>
 
         {/* AquaBall Clash 2 */}
         <div className="project">
