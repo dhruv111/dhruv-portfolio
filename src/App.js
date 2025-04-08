@@ -17,11 +17,26 @@ function App() {
 
       <nav>
         <a href="#home">Home</a>
+        <a href="#about">About Me</a> {/* Moved About Me here */}
         <a href="#projects">Projects</a>
-        <a href="#about">About Me</a>
         <a href="#contact">Contact</a>
       </nav>
 
+      {/* About Me Section */}
+      <section id="about" className="fade-in-section">
+        <h2>About Me</h2>
+        <p>
+          I’m a passionate Software Engineer and Unity Developer with over 5 years of experience in creating engaging games and tools. My expertise spans across mobile and WebGL platforms, and I have been involved in numerous projects that focus on delivering immersive gameplay experiences. I have worked on both 2D and 3D games, and my skill set includes Unity, C#, and various game development tools.
+        </p>
+        <p>
+          In addition to my development skills, I am experienced in building custom tools that streamline workflows and improve production pipelines. I have a strong foundation in Git for version control, Jenkins and Bitrise for continuous integration, and Jira/Confluence for project management. I thrive in collaborative environments, always aiming to deliver polished, optimized, and high-performance games.
+        </p>
+        <p>
+          Currently based in Ahmedabad, I am open to relocation and excited to explore opportunities in game development, especially within teams that are working on innovative projects that push the boundaries of gaming experiences.
+        </p>
+      </section>
+
+      {/* Projects Section */}
       <section id="projects" className="fade-in-section">
         <h2>Projects</h2>
 
@@ -100,12 +115,7 @@ function App() {
         </div>
       </section>
 
-      <section id="about" className="fade-in-section">
-        <h2>About Me</h2>
-        <p>I'm a Unity Developer with over 5 years of experience working on diverse game projects across mobile and WebGL platforms.</p>
-        <p>Fluent in Git, Jenkins, Bitrise, Jira, and Confluence. Based in Ahmedabad, open to relocating to Bengaluru.</p>
-      </section>
-
+      {/* Contact Section */}
       <section id="contact" className="fade-in-section">
         <h2>Contact</h2>
         <p>Email: <a href="mailto:dhruvmevada.dev@gmail.com" className="contact-link">dhruvmevada.dev@gmail.com</a></p>
