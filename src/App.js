@@ -29,23 +29,25 @@ function App() {
           I’m a passionate Software Engineer and Unity Developer with over 5 years of experience in creating engaging games and tools. My expertise spans across mobile and WebGL platforms, and I have been involved in numerous projects that focus on delivering immersive gameplay experiences. I have worked on both 2D and 3D games, and my skill set includes Unity, C#, and various game development tools.
         </p>
         <p>
-          In addition to my development skills, I am experienced in building custom tools that streamline workflows and improve production pipelines. I have a strong foundation in Git for version control, Jenkins and Bitrise for continuous integration, and Jira/Confluence for project management. I thrive in collaborative environments, always aiming to deliver polished, optimized, and high-performance games.
+          In addition to my development skills, I am experienced in building custom tools that streamline workflows and improve production pipelines. I am proficient in Git for version control, Jenkins and Bitrise for continuous integration, and Jira/Confluence for project management. I thrive in collaborative environments, always aiming to deliver polished, optimized, and high-performance products.
         </p>
         <p>
-          Currently based in Ahmedabad, I am open to relocation and excited to explore opportunities in game development, especially within teams that are working on innovative projects that push the boundaries of gaming experiences.
+          Currently working remotely, I am open to relocation and excited to explore opportunities, especially within teams that are working on innovative projects that push the boundaries of game or product experiences.
         </p>
       </section>
 
       {/* Projects Section */}
       <section id="projects" className="fade-in-section">
         <h2>Projects</h2>
-
+        <p>
+          Here are some of the exciting projects i worked with.
+         </p>
         {/* Gardens of Time */}
         <div className="project">
           <img src={gardens_of_time} alt="Gardens of Time" />
           <div className="project-details">
             <h3>Gardens of Time</h3>
-            <p>I was part of the Gardens of Time team, released new content, solved live bugs, participated in the endpoint migration from Playdom (Poreach Inc) to Garden City Games, and helped in releasing features to retain players.</p>
+            <p>I was part of the Gardens of Time team, released new content, solved live bugs, participated in the endpoint migration from Poreach Inc to Garden City Games Ltd. Released new features and resolved live bugs to retain players.</p>
             <div className="link-buttons">
               <a href="https://www.facebook.com/GardensofTime/" target="_blank" rel="noreferrer">View on Facebook</a>
             </div>
@@ -118,10 +120,9 @@ function App() {
       {/* Contact Section */}
       <section id="contact" className="fade-in-section">
         <h2>Contact</h2>
-        <p>Email: <a href="mailto:dhruvmevada.dev@gmail.com" className="contact-link">dhruvmevada.dev@gmail.com</a></p>
+        <p>Email: <a href="mailto:dhruvm113355.dev@gmail.com" className="contact-link">dhruvm113355v@gmail.com</a></p>
         <p>Phone: <a href="tel:+917383865487" className="contact-link">+91 7383865487</a></p>
-        <p>GitHub: <a href="https://github.com/Dhruvmevada" className="contact-link" target="_blank" rel="noreferrer">github.com/Dhruvmevada</a></p>
-        <p>LinkedIn: <a href="https://linkedin.com/in/dhruvmevada" className="contact-link" target="_blank" rel="noreferrer">linkedin.com/in/dhruvmevada</a></p>
+       
       </section>
 
       <footer>
