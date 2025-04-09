@@ -40,8 +40,9 @@ function App() {
       <section id="projects" className="fade-in-section">
         <h2>Projects</h2>
         <p className="project-intro">
-        Here are some of the notable projects I have had the privilege of contributing to.
-         </p>
+          Here are some of the notable projects I have had the privilege of contributing to.
+        </p>
+
         {/* Gardens of Time */}
         <div className="project">
           <img src={gardens_of_time} alt="Gardens of Time" />
@@ -122,7 +123,6 @@ function App() {
         <h2>Contact</h2>
         <p>Email: <a href="mailto:dhruvm113355@gmail.com" className="contact-link">dhruvm113355@gmail.com</a></p>
         <p>Phone: <a href="tel:+917383865487" className="contact-link">+91 7383865487</a></p>
-       
       </section>
 
       <footer>

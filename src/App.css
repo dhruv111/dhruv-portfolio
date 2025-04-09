@@ -27,20 +27,37 @@ nav {
   position: sticky;
   top: 0;
   z-index: 1000;
+  padding: 10px 0;
 }
 
 nav a {
-  padding: 15px 20px;
+  padding: 10px 20px;
   text-decoration: none;
   color: #2c3e50;
   font-weight: 600;
   transition: 0.3s;
+  font-size: 1rem;
 }
 
 nav a:hover {
   background-color: #3498db;
   color: white;
   border-radius: 5px;
+}
+
+/* Mobile adjustments for the navigation */
+@media screen and (max-width: 768px) {
+  nav {
+    flex-direction: column;
+    padding: 15px 0;
+  }
+
+  nav a {
+    padding: 12px 15px;
+    font-size: 1.1rem;
+    width: 100%;
+    text-align: center;
+  }
 }
 
 section {
@@ -77,9 +94,11 @@ h2 {
   height: 80px;
   border-radius: 10px;
 }
+
 .project-intro {
-  margin-bottom: 20px; 
+  margin-bottom: 20px;
 }
+
 .project-details h3 {
   margin: 0;
   font-size: 1.2rem;
@@ -123,31 +142,35 @@ footer {
   }
 }
 
+
 @media screen and (max-width: 768px) {
   .project {
     flex-direction: column;
     text-align: center;
   }
-}
 
-/* New addition for Lucky Slots horizontal buttons */
-.link-buttons {
-  display: flex;
-  gap: 15px;
-  margin-top: 10px;
-  justify-content: flex-start;
-}
+  .project img {
+    width: 100px;
+    height: 100px;
+  }
 
-.link-buttons a {
-  background-color: #3498db;
-  color: white;
-  padding: 10px 20px;
-  border-radius: 5px;
-  text-decoration: none;
-  font-weight: bold;
-  transition: background-color 0.3s;
-}
+  .project-details h3 {
+    font-size: 1.2rem;
+  }
 
-.link-buttons a:hover {
-  background-color: #2980b9;
+  .project-details p {
+    font-size: 0.9rem;
+  }
+
+  .link-buttons {
+    display: block;
+    margin-top: 10px;
+  }
+
+  .link-buttons a {
+    margin-bottom: 10px;
+    width: 100%;
+    text-align: center;
+    padding: 10px 20px;
+  }
 }
