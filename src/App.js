@@ -40,7 +40,7 @@ function App() {
       <section id="projects" className="fade-in-section">
         <h2>Projects</h2>
         <p className="project-intro">
-          Here are some of the exciting projects i worked with.
+        Here are some of the notable projects I have had the privilege of contributing to.
          </p>
         {/* Gardens of Time */}
         <div className="project">
