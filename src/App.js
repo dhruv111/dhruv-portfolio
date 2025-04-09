@@ -120,7 +120,7 @@ function App() {
       {/* Contact Section */}
       <section id="contact" className="fade-in-section">
         <h2>Contact</h2>
-        <p>Email: <a href="mailto:dhruvm113355.dev@gmail.com" className="contact-link">dhruvm113355v@gmail.com</a></p>
+        <p>Email: <a href="mailto:dhruvm113355@gmail.com" className="contact-link">dhruvm113355@gmail.com</a></p>
         <p>Phone: <a href="tel:+917383865487" className="contact-link">+91 7383865487</a></p>
        
       </section>
