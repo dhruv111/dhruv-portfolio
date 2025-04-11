@@ -3,7 +3,7 @@ html {
 }
 
 header {
-  background: linear-gradient(120deg, #6fe211, #3498db);
+  background: linear-gradient(120deg, #2c3e50, #3498db);
   padding: 100px 20px;
   text-align: center;
   color: white;
@@ -16,7 +16,7 @@ header h1 {
 
 header p {
   font-size: 1.2rem;
-  color: #1500ff;
+  color: #e0e0e0;
 }
 
 nav {
@@ -33,7 +33,7 @@ nav {
 nav a {
   padding: 15px 20px;
   text-decoration: none;
-  color: #ff0000;
+  color: #2c3e50;
   font-weight: 600;
   transition: 0.3s;
   font-size: 1rem;
@@ -71,7 +71,7 @@ section {
 
 h2 {
   font-size: 2.2rem;
-  color: #ff00dd;
+  color: #2c3e50;
   margin-bottom: 20px;
 }
 
@@ -159,7 +159,7 @@ h2 {
 
 .about p, .contact p {
   margin-bottom: 15px;
-  color: #b3ff00;
+  color: #444;
 }
 
 footer {
@@ -201,7 +201,7 @@ footer {
 
 /* Ensuring About Me section text is normal */
 #about p {
-  color: #00ffe1;
+  color: #444;
   font-weight: normal;
 }
 
