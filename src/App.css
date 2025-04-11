@@ -49,11 +49,11 @@ nav a:hover {
 @media screen and (max-width: 768px) {
   nav {
     flex-direction: column;
-    padding: 5px 0;
+    padding: 3px 0;
   }
 
   nav a {
-    padding: 12px 12px;
+    padding: 12px 15px;
     font-size: 1.1rem;
     width: 100%;
     text-align: center;
