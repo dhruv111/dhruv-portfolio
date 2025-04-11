@@ -204,7 +204,7 @@ footer {
 
 /* Fix for Contact Section - No underlines and keeping original color */
 .contact-link {
-  color: #444;
+  color: #3498db;
   text-decoration: none;
   font-weight: 500;
 }
