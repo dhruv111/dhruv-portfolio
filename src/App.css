@@ -46,19 +46,20 @@ nav a:hover {
 }
 
 /* Mobile adjustments for the navigation */
+
 @media screen and (max-width: 768px) {
   nav {
-    flex-direction: column;
-    padding: 3px 0;
+    flex-direction: row; /* Keep items horizontal */
+    justify-content: space-evenly; /* Space them out evenly */
+    padding: 10px 0; /* Adjust padding */
   }
 
   nav a {
-    padding: 12px 15px;
-    font-size: 1.1rem;
-    width: 100%;
-    text-align: center;
+    padding: 8px 15px; /* Reduce padding to make the links smaller */
+    font-size: 1rem; /* Keep the font size readable */
   }
 }
+
 
 section {
   max-width: 1000px;
