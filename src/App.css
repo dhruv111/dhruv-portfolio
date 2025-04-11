@@ -23,7 +23,7 @@ nav {
   background-color: white;
   display: flex;
   justify-content: center;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
   position: sticky;
   top: 0;
   z-index: 1000;
@@ -78,7 +78,7 @@ h2 {
   border-radius: 10px;
   padding: 20px;
   margin-bottom: 30px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
   display: flex;
   align-items: center;
   gap: 20px;
@@ -180,35 +180,36 @@ footer {
   }
 }
 
-#about {
-  background-color: #f5f8ff;
-  padding: 40px 20px;
-  text-align: left;
-  color: #2c3e50;
-  font-size: 1.2rem;
-  line-height: 1.6;
-  border-radius: 10px;
-  margin-bottom: 30px;
+/* Specific button style only for project links */
+.project-details a {
+  display: inline-block;
+  background-color: #3498db;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-weight: 600;
+  border-radius: 5px;
+  transition: background-color 0.3s;
 }
 
-#about h2 {
-  font-size: 2.2rem;
-  color: #3498db;
-  margin-bottom: 20px;
-  text-align: center;
+.project-details a:hover {
+  background-color: #2980b9;
 }
 
+/* Ensuring About Me section text is normal */
 #about p {
-  font-weight: normal;
   color: #444;
-  text-align: justify;
+  font-weight: normal;
 }
 
-#about .contact-link {
+/* Fix for Contact Section - No underlines and keeping original color */
+.contact-link {
+  color: #444;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.contact-link:hover {
   color: #3498db;
   text-decoration: none;
-}
-
-#about .contact-link:hover {
-  text-decoration: underline;
 }
