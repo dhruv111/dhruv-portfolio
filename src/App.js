@@ -42,7 +42,6 @@ function App() {
         <p className="project-intro">
           Here are some of the notable projects I have had the privilege of contributing to.
         </p>
-
         {/* Gardens of Time */}
         <div className="project">
           <img src={gardens_of_time} alt="Gardens of Time" />
