@@ -2,7 +2,7 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  background-color: #6a6a6a; /* Replace with your desired color */
+  background-color: #f0f0f0; /* Replace with your desired color */
 }
 header {
   background: linear-gradient(120deg, #2c3e50, #3498db);
