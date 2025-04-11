@@ -54,8 +54,8 @@ nav a:hover {
   }
 
   nav a {
-    padding: 8px 30px; /* Increase padding for larger buttons */
-    font-size: 1rem; /* Increase font size */
+    padding: 8px 15px; /* Increase padding for larger buttons */
+    font-size: 1.2rem; /* Increase font size */
     font-weight: 700; /* Make the text bold for emphasis */
   }
 }
