@@ -46,7 +46,6 @@ nav a:hover {
 }
 
 /* Mobile adjustments for the navigation */
-
 @media screen and (max-width: 768px) {
   nav {
     flex-direction: row; /* Keep items horizontal */
@@ -55,10 +54,12 @@ nav a:hover {
   }
 
   nav a {
-    padding: 8px 15px; /* Reduce padding to make the links smaller */
-    font-size: 1rem; /* Keep the font size readable */
+    padding: 15px 30px; /* Increase padding for larger buttons */
+    font-size: 1.2rem; /* Increase font size */
+    font-weight: 700; /* Make the text bold for emphasis */
   }
 }
+
 
 
 section {
