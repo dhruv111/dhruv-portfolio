@@ -123,7 +123,7 @@ function App() {
         <h2>Contact</h2>
         <p>Email: <a href="mailto:dhruvm113355@gmail.com" className="contact-link">dhruvm113355@gmail.com</a></p>
         <p>Phone: <a href="tel:+917383865487" className="contact-link">+91 7383865487</a></p>
-        <p><a href={cvFile} download className="contact-link">Download My CV</a></p> {www.google.com}
+        <p><a href="https://google.com" className="contact-link">Download My CV</a></p> 
       </section>
 
       <footer>
